@@ -1,7 +1,7 @@
 module.exports = {
   // 单行代码的最大宽度
   printWidth: 500,
-  // 每行结束都加上分号
+  // 每行结束都加上分号 true, 不加 false
   semi: false,
   // 缩进Vue文件中
   vueIndentScriptAndStyle: true,
