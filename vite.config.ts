@@ -5,6 +5,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  envDir: './viteEnv', //这里配置环境变量文件的位置
   plugins: [vue()],
   resolve: {
     alias: {
