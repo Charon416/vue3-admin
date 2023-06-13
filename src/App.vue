@@ -4,6 +4,7 @@
 
 <template>
   <div>
+    <div class="text">刘莎大笨猪</div>
     <el-row>
       <el-button :icon="Search" />
       <el-button type="primary" :icon="Edit" />
@@ -16,4 +17,8 @@
   </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+  .text {
+    color: $base-color;
+  }
+</style>

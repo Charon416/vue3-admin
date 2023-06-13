@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
 // 引入element-plus
 import ElementPlus from 'element-plus'
@@ -8,9 +7,10 @@ import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 
 // 引入svg
 import 'virtual:svg-icons-register'
-
 // 注册全局组件
 import globalComponent from '@/components/index.ts'
+// 引入全局样式
+import '@/styles/index.scss'
 
 const app = createApp(App)
 app.use(globalComponent)
