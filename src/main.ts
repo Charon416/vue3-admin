@@ -6,6 +6,13 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 
+// 引入svg
+import 'virtual:svg-icons-register'
+
+// 注册全局组件
+import globalComponent from '@/components/index.ts'
+
 const app = createApp(App)
+app.use(globalComponent)
 app.use(ElementPlus, { locale: zhCn })
 app.mount('#app')

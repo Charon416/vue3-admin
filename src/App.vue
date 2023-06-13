@@ -12,6 +12,7 @@
       <el-button type="warning" :icon="Star" />
       <el-button type="danger" :icon="Delete" />
     </el-row>
+    <svg-icon name="home" size="30"></svg-icon>
   </div>
 </template>
 
