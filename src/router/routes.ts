@@ -1,11 +1,6 @@
 // 对外暴露配置路由（常量路由）
 export const constantRoute = [
   {
-    path: '/',
-    component: () => import('@/views/home/index.vue'),
-    name: 'layout' //
-  },
-  {
     path: '/login',
     component: () => import('@/views/login/index.vue'),
     name: 'login' // 命名路由
@@ -14,6 +9,11 @@ export const constantRoute = [
     path: '/home',
     component: () => import('@/views/home/index.vue'),
     name: 'home' //
+  },
+  {
+    path: '/',
+    component: () => import('@/views/layout/index.vue'),
+    name: 'layout' //
   },
   {
     path: '/404',
