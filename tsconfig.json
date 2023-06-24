@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    // Element Plus全局组件说明
+    // "types": ["element-plus/global"],
     // 别名
     "baseUrl": "./",
     "paths": {
